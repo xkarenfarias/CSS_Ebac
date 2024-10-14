@@ -13,15 +13,19 @@ body > header {
 header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header li {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
 header li a {
     color: aliceblue;
+    text-decoration: none;
 }
 
 .container {
@@ -36,7 +40,8 @@ header li a {
 }
 
 .articles article img {
-    height: 100px;
+    /*height: 180px;*/
+    width: 100%;
 }
 
 .articles article {
@@ -60,6 +65,43 @@ section h2,
 .articles article a {
     background-color: rgb(68, 68, 114);
     color: aliceblue;
-    padding: 3px;
+    padding: 8px;
     display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 9px;
 }
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(178, 178, 221, 0.473);
+}
+
+#sports .articles article a {
+    background-color: rgba(0, 98, 128, 0.596) ;
+}
+
+#economy {
+    background-color: rgba(163, 163, 194, 0.829)
+}
+
+#economy .articles article a {
+    background-color: rgba(3, 3, 63, 0.623)
+}
+
