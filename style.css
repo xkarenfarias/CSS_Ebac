@@ -93,15 +93,79 @@ section h2 {
     background-color: rgba(178, 178, 221, 0.473);
 }
 
+#sports h2 {
+    color: green;
+}
+
+#sports time {
+    color: rgb(75, 75, 75);
+}
+
 #sports .articles article a {
     background-color: rgba(0, 98, 128, 0.596) ;
 }
 
 #economy {
-    background-color: rgba(163, 163, 194, 0.829)
+    background-color: black
 }
 
+#economy h2 {
+    color: rgba(255, 255, 255, 0.856);
+}
+
+#economy time {
+    color: grey;
+}
+
+#economy h3 {
+    color: wheat;
+}
+#economy p {
+    color: rgba(240, 248, 255, 0.747);
+}
 #economy .articles article a {
     background-color: rgba(3, 3, 63, 0.623)
 }
 
+#entreterimento {
+    background-color: rgb(164, 161, 182);
+}
+
+#entreterimento h3 {
+    color: rgba(5, 5, 5, 0.904);
+}
+
+#entreterimento h2 {
+    color: rgb(110, 17, 17);
+}
+
+#entreterimento time {
+    color: rgb(75, 75, 75);
+}
+
+#entreterimento .articles article a {
+    background-color: rgb(136, 5, 5);
+}
+
+#tecnologia {
+    background-color: black;
+}
+
+#tecnologia h2 {
+    color: rgb(175, 171, 179);
+}
+
+#tecnologia h3 {
+    color: green;
+}
+#tecnologia p {
+    color: aliceblue;
+}
+
+#tecnologia time {
+    color: grey;
+}
+
+#tecnologia .articles article a {
+    background-color: #2f2f2f;
+}
